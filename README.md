@@ -29,4 +29,4 @@
 - data-[browserPosition]-[elementPosition] (e.g., data-center-top)
 ---
 ---
-##### `https://franz0406.github.io/Parallax-Scrolling/`
+##### https://franz0406.github.io/Parallax-Scrolling/
