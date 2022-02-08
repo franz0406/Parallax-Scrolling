@@ -1,8 +1,15 @@
 ## Skrollr - Parallax Scrolling
 
 #### 기본 사용법
-
-
+```html
+<div data-0="color:rgb(0,0,0)" data-500="color:rgb(255,255,255)"></div>
+```
+```javascript
+<script src="skrollr.min.js"></script>
+<script>
+    const s = skrollr.init();
+</script>
+```
 브라우저 기준.
 - data-start => scrolled to the top of the document
 - data-100-start => after scrolling down 100px
@@ -22,4 +29,4 @@
 - data-[browserPosition]-[elementPosition] (e.g., data-center-top)
 ---
 ---
-### 색상은 `rgb` or `rgba` 속성을 사용해야 변화하는 과정이 보인다. 
+##### `https://franz0406.github.io/Parallax-Scrolling/`

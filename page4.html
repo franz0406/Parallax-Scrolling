@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css?family=Oswald:700|Poppins"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Skrollr - Website</title>
+</head>
+<body>
+    <section>
+        <nav class="skroll-container" data-800="opacity:1" data-1500="opacity:0">
+            <ul class="layout">
+                <li><h1>developedbyed</h1></li>
+                <li><a href="#" class="button">Sign Up</a></li>
+            </ul>           
+        </nav>
+        
+        <div class="main-bg skroll-container">
+            <h2 class="main-title" data-0="opacity:0" data-500="opacity:1">Explore.</h2>
+            <img src="./img/bg1.png" class="bg1" alt=""/>
+            <img src="./img/girl1.png" class="girl" alt="" data-500="top:0%; transform:scale(1)" data-1500="top:-40%; transform:scale(1.5)"/>
+            <img src="./img/rock1.png" class="rock" alt=""  data-500="top:0%;" data-1500="top:-60%;"/>
+        </div>
+        
+        <div class="content skroll-container" data-500="top:100%" data-1500="top:0%">
+            <div class="content-images layout" data-2000="opacity:0;" data-2500="opacity:1;">
+                <div>
+                    <img src="./img/switzleft.png" alt="" data-2250="transform:scale(5)" data-2500="transform:scale(1)"/>
+                    <h4 data-2500="opacity:0; transform:scale(3);" data-2700="opacity:1; transform:scale(1);">Switzerland</h4>
+                    <h3>Mountains of tibidabo</h3>
+                </div>
+                <div>
+                    <img src="./img/switzright.png" alt="" data-2000="transform:scale(5)" data-2250="transform:scale(1)"/>
+                    <h4 data-2500="opacity:0; transform:scale(3);" data-2700="opacity:1; transform:scale(1);">Switzerland</h4>
+                    <h3>Mountains of tibidabo</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skroll-container" data-2800="opacity:0; top:100%;" data-3500="opacity:1; top:60%;">
+            <div class="text-box layout">
+                <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere neque
+                consequuntur a nisi, illo quia cupiditate fuga et eos minima
+                voluptatum cum dolorum quas repellat eaque beatae vitae veritatis
+                quae.
+                </p>
+                <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere neque
+                consequuntur a nisi, illo quia cupiditate fuga et eos minima
+                voluptatum cum dolorum quas repellat eaque beatae vitae veritatis
+                quae.
+                </p>
+            </div>
+        </div>        
+        
+    </section>
+    <script src="./js/skrollr.js"></script>
+    <script>
+        const s = skrollr.init();
+    </script>
+</body>
+</html>
