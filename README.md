@@ -10,7 +10,7 @@
     const s = skrollr.init();
 </script>
 ```
-브라우저 기준.
+브라우저 기준 ABSOLUTE.
 - data-start => scrolled to the top of the document
 - data-100-start => after scrolling down 100px
 - data-end => at the bottom of the document
@@ -18,7 +18,7 @@
 - data-100 => same as data-100-start
 ---
 ---
-엘리먼트 기준
+엘리먼트 기준 RELATIVE.
 - data-top => top of an element = top of the browser
 - data-100-top => top of an element = 100px below the top of the browser
 - data--100-top => top of element = 100px above the top of the browser
@@ -29,4 +29,4 @@
 - data-[browserPosition]-[elementPosition] (e.g., data-center-top)
 ---
 ---
-##### https://franz0406.github.io/Parallax-Scrolling/
+##### 사이트 보기 [Click](https://franz0406.github.io/Parallax-Scrolling/).

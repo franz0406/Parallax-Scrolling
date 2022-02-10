@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 
 img {
@@ -33,6 +34,7 @@ nav ul{
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    gap:20px;
     color:white;
 }
 
